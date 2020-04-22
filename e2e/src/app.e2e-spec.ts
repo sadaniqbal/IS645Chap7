@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('SuperStore app is running!');
+    expect(page.getTitleText()).toEqual('IS645Chap7-SuperStore app is running!');
   });
 
   afterEach(async () => {
